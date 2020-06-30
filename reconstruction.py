@@ -31,8 +31,6 @@ def function_2(N,string_X): # creating N traces of X
         trace_all.append(trace)
     return(trace_all)
 
-    return trace_all
-
 def function_3(trace_all): #reconstructing the original X string by using traces
     probability_list = []
     recovered_X = []

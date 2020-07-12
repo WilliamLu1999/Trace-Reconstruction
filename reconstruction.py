@@ -1,3 +1,8 @@
+### Trace Reconstruction
+# This program recovers the original message from N different received traces.
+# This one is specific for the trace only containing two types of value (either 0 or 1).
+# July 5th 2020
+
 import random
 import math
 

@@ -21,7 +21,8 @@ def function_1(n): # creating string X as a sequence offrom input n.
         else:
             string_X.append(1)
         i += 1
-    return(string_X)
+    return string_X
+    
 
 N = math.floor((8*(1+d)* math.log(n))/math.exp(-12*q*n)) # The number of traces we need
 print(N)
@@ -48,11 +49,10 @@ def function_3(trace_all): #reconstructing the original X string by using traces
                 if trace_all[k][j-1] == 1:
                     f += 1
         probability_list.append(f/N) # P(Yj = 1) = probability_list[j-1]
+        
     print(probability_list)
     for i in range(1,n+1):
         j = math.floor((1-3*q)*i + 3*q)
-        print(i)
-        print(j)
         prob_i_j = math.comb(i-1,j-1)*q**(i-j)*(1-q)**j
         summation = probability_list[j-1]
         for l in range(j,i):

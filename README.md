@@ -1,5 +1,5 @@
 # trace-reconstruction
-The name of this research is trace reconstruction. Namely, we recover the original sequence by using a number of traces. 
+The topic of this research is trace reconstruction. Namely, we recover the original sequence by using a number of traces. 
 
 The research involves Theory of Probability, Sterling's Formula, Hoeffding's Inequality, and many other applications of math.
 

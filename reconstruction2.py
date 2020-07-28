@@ -19,7 +19,7 @@ v = 70
 j = int((v-0.1*w)*(1-3*q))
 # N = (2**(2*w+28)/(1-q)**w) * (math.log(n)*(1+d)+math.log(2)) # number of traces required 
 # which is 2.0008099468643687e+35
-N = 1000000
+N = 100000000
 
 def function_1(n): # creating string X as a sequence offrom input n.
     string_X = [] # the original string in an array form
